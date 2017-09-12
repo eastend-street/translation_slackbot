@@ -1,0 +1,7 @@
+app/slackbot_settings.py
+app/keys/*
+app/test.py
+app/__pycache__
+/build.sh
+/run.sh
+*.pyc
