@@ -1,0 +1,9 @@
+# docker_image_tag : write your image tag
+sudo docker stop `sudo docker ps -f ancestor=docker_image_tag:latest -q`$
+
+sudo docker run -it \
+        -e "GOOGLE_APPLICATION_CREDENTIALS=keys/your_goolgle_translate_api_key" \
+        -v /home/path/to/your/directory/app:/app \
+        # docker_image_tag : write your image tag
+        docker_image_tag \
+        bash

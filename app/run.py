@@ -2,9 +2,12 @@
 
 import logging
 from slackbot.bot import Bot
+from os import environ
+
+logging.basicConfig(level=environ.get("LOG_LEVEL"))
 
 
-logging.basicConfig(level=logging.DEBUG)
+print(environ.get("LOG_LEVEL"))
 
 
 def main():
@@ -13,6 +16,6 @@ def main():
 
 
 if __name__ == "__main__":
-    print('start botForSlack')
+    print('start slack-bot')
 
     main()

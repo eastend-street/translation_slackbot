@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-$
+
+
+API_TOKEN = "write your slack bot api key:"
+
+
+PLUGINS = ['plugins.my_mention']
+
+DEBUG = True
+
+ERRORS_TO = "write your slack name or channel"

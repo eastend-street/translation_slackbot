@@ -68,8 +68,6 @@ def default_func(message):
     message.reply_webapi(text=" ", attachments=[{'text': translation.get("translatedText")}, ])
 
     logger.info(message._body.get("text"))
-# print(u'Text: {}'.format(message))
-# print(u'Translation: {}'.format(translation['translatedText']))
 
 
 # 「help」が入力された場合、使いかたのメッセージを出力する関
