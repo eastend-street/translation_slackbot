@@ -4,10 +4,8 @@ import logging
 from slackbot.bot import Bot
 from os import environ
 
+# LOG_LEVEL : This is environment variables. It is written in DockerFile.
 logging.basicConfig(level=environ.get("LOG_LEVEL"))
-
-
-print(environ.get("LOG_LEVEL"))
 
 
 def main():
