@@ -1,6 +1,6 @@
 FROM python:3.6
 
-#インストールするものを書く
+
 RUN pip install --upgrade -q \
 pip \
 slackbot \
