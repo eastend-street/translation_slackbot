@@ -13,7 +13,7 @@ git clone https://github.com/eastend-street/translation_slackbot.git
 
 ### 2. Make build.sh like build.sh.sample
 
-You don't have to change these code. If you want to change docker image tag name, please edit it. Default name is "translation_slack_bot".
+You don't have to change this code, just copy. If you want to change docker image tag name, edit it. Default name is "translation_slack_bot".
 
 ```
 sudo docker stop `sudo docker ps -f ancestor= translation_slack_bot:latest -q`$
