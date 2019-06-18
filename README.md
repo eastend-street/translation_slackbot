@@ -36,6 +36,8 @@ sudo docker run -it \
         translation_slack_bot \
         bash
 ```
+### 4. Create Slack app
+https://api.slack.com/apps?new_app=1
 
 ### 4. Build & Run
 
