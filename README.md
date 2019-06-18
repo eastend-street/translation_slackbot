@@ -5,13 +5,13 @@ You can translate English to Japanese, Japanese to English, Other languages to E
 
 ## Usage
 
-1. Download
+### 1. Download
 
 ```
 git clone https://github.com/eastend-street/translation_slackbot.git
 ```
 
-3. Make build.sh like build.sh.sample
+### 2. Make build.sh like build.sh.sample
 
 You don't have to change these code. If you want to change docker image tag name, please edit it. Default name is "translation_slack_bot".
 
@@ -20,7 +20,7 @@ sudo docker stop `sudo docker ps -f ancestor= translation_slack_bot:latest -q`$
 sudo docker build -t translation_slack_bot .$
 ```
 
-2. Make run.sh like run.sh.sample
+### 3. Make run.sh like run.sh.sample
 
 Write your Google Cloud Translation API Key and directory in run.sh
 
@@ -34,7 +34,7 @@ sudo docker run -it \
         bash
 ```
 
-3. Build & Run
+### 4. Build & Run
 
 Build
 ```
