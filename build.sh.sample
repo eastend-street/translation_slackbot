@@ -1,2 +1,2 @@
-sudo docker stop `sudo docker ps -f ancestor= translation_slack_bot:latest -q`$
-sudo docker build -t translation_slack_bot .$
+# sudo docker stop `sudo docker ps -f ancestor= translation_slack_bot:latest -q`
+sudo docker build -t translation_slack_bot .

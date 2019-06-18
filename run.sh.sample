@@ -1,4 +1,4 @@
-sudo docker stop `sudo docker ps -f ancestor=translation_slack_bot:latest -q`$
+# sudo docker stop `sudo docker ps -f ancestor=translation_slack_bot:latest -q`
 
 sudo docker run -it \
         -e "GOOGLE_APPLICATION_CREDENTIALS=keys/your_goolgle_translate_api_key" \
