@@ -39,7 +39,7 @@ sudo docker run -it \
 ### 4. Create Slack app
 https://api.slack.com/apps?new_app=1
 
-### 4. Build & Run
+### 5. Build & Run
 
 Build
 ```
