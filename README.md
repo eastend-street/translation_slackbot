@@ -1,13 +1,9 @@
-![slack-bot-logo](https://user-images.githubusercontent.com/43656115/76172573-c47e9a80-6154-11ea-8251-ddcaaa20ebbf.png)
 <h1 align="center">Translation Slack Bot</h1>
 Translation Slack Bot is a multilingual translation bot on Slack using Google Cloud Translation API. 
 You can translate English to Japanese, Japanese to English, Other languages to English. It automatically detects the language and translates it.
 
-
 <br/>
 
-
-## Sample
 ![slack-bot](https://user-images.githubusercontent.com/43656115/62005382-4dc1ef00-b0e7-11e9-8058-540ad9dc249f.png)
 
 ## Requirement
