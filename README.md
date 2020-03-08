@@ -21,6 +21,7 @@ Docker, Python3, Google Cloud Translation AP
 ```
 git clone https://github.com/eastend-street/translation_slackbot.git
 ```
+<br/>
 
 ### 2. Make build.sh like build.sh.sample
 
@@ -30,6 +31,8 @@ You don't have to change this code, just copy. If you want to change docker imag
 sudo docker stop `sudo docker ps -f ancestor= translation_slack_bot:latest -q`$
 sudo docker build -t translation_slack_bot .$
 ```
+
+<br/>
 
 ### 3. Make run.sh like run.sh.sample
 
@@ -44,8 +47,13 @@ sudo docker run -it \
         translation_slack_bot \
         bash
 ```
+<br/>
+
+
 ### 4. Create Slack app
 https://api.slack.com/apps?new_app=1
+
+<br/>
 
 ### 5. Build & Run
 
