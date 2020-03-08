@@ -6,8 +6,12 @@ You can translate English to Japanese, Japanese to English, Other languages to E
 
 ![slack-bot](https://user-images.githubusercontent.com/43656115/62005382-4dc1ef00-b0e7-11e9-8058-540ad9dc249f.png)
 
+<br/>
+
 ## Requirement
 Docker, Python3, Google Cloud Translation AP
+
+<br/>
 
 ## Usage
 
@@ -53,3 +57,8 @@ Run
 ```
 ./run.sh
 ```
+
+<br/>
+
+## Author
+[eastend-street](https://github.com/eastend-street)
