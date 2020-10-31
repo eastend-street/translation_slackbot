@@ -2,7 +2,7 @@
 
 
 Translation Slack Bot is a multilingual translation bot on Slack using Google Cloud Translation API. 
-You can translate English to Japanese, Japanese to English, Other languages to English. It automatically detects the language and translates it.  
+You can translate English to Japanese, Japanese to English and the other languages to English. It automatically detects the language and translates it.  
 
 <br/>
 <br/>
