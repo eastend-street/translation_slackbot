@@ -20,7 +20,7 @@ You can translate English to Japanese, Japanese to English and the other languag
 <br/>
 <br/>
 
-## Requirement
+## Requirements
 Docker, Python3, Google Cloud Translation AP
 
 <br/>
