@@ -2,7 +2,7 @@
 
 
 Translation Slack Bot is a multilingual translation bot on Slack using Google Cloud Translation API. 
-You can translate English to Japanese, Japanese to English and the other languages to English. It automatically detects the language and translates it.  
+You can translate English to Japanese, Japanese to English, and the other languages to English. It automatically detects the language and translates it.  
 
 <br/>
 <br/>
@@ -21,7 +21,7 @@ You can translate English to Japanese, Japanese to English and the other languag
 <br/>
 
 ## Requirements
-Docker, Python3, Google Cloud Translation AP
+Docker, Python3, and Google Cloud Translation AP
 
 <br/>
 
@@ -36,7 +36,7 @@ git clone https://github.com/eastend-street/translation_slackbot.git
 
 ### 2. Make build.sh like build.sh.sample
 
-You don't have to change this code, just copy. If you want to change docker image tag name, edit it. Default name is "translation_slack_bot".
+You don't have to change this code, just copy it. Edit it if you want to change your docker image tag name, the default name is "translation_slack_bot".
 
 ```
 sudo docker stop `sudo docker ps -f ancestor= translation_slack_bot:latest -q`$
